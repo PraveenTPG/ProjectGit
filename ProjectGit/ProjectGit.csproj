@@ -56,6 +56,7 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="MyIndex.aspx" />
+    <Content Include="MyIndex2.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -122,6 +123,13 @@
     </Compile>
     <Compile Include="MyIndex.aspx.designer.cs">
       <DependentUpon>MyIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MyIndex2.aspx.cs">
+      <DependentUpon>MyIndex2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyIndex2.aspx.designer.cs">
+      <DependentUpon>MyIndex2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
